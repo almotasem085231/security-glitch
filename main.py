@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 captcha_data = {}
 
 GROUP_IDS = {
-    "genshin_imapct": -1002840180262,
+    "genshin_imapct": -1001537555208,
     "wuthering_waves": -1002443942396,
     "honkai": -1002437082497
 }
