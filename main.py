@@ -24,7 +24,7 @@ captcha_data = {}
 GROUP_IDS = {
     "genshin_imapct": -1002840180262,
     "wuthering_waves": -1002443942396,
-    "honkai": -1002345876208
+    "honkai": -1002437082497
 }
 
 def generate_captcha():
