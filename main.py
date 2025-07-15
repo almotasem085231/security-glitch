@@ -23,7 +23,7 @@ captcha_data = {}
 
 GROUP_IDS = {
     "genshin_imapct": -1001537555208,
-    "wuthering_waves": -1002443942396,
+    "wuthering_waves": -1002066766124,
     "honkai": -1002437082497
 }
 
