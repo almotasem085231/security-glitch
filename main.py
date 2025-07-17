@@ -22,9 +22,9 @@ logger = logging.getLogger(__name__)
 captcha_data = {}
 
 GROUP_IDS = {
-    "genshin_imapct": -1001537555208,
-    "wuthering_waves": -1002066766124,
-    "honkai": -1002437082497
+    "gen_im_c": -1001537555208,
+    "wuwa_kuro_w": -1002066766124,
+    "hsr_hoyo_g": -1002437082497
 }
 
 def generate_captcha():
