@@ -1,15 +1,20 @@
 import logging
 import random
 import time
+import os
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
-from telegram import Update, Bot
+from telegram import Update
 from telegram.ext import (
     ApplicationBuilder, CommandHandler,
     MessageHandler, ContextTypes, filters
 )
+from dotenv import load_dotenv
 
-BOT_TOKEN = "7584730200:AAHuPCy609l914vPKhNlohEzWYOuLzfkffg"
+# تحميل التوكن من .env
+load_dotenv()
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 MAX_ATTEMPTS = 3
 CAPTCHA_TIMEOUT = 60
 
